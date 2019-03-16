@@ -13,11 +13,11 @@
 [JunjieYan-web]: http://www.cbsr.ia.ac.cn/users/jjyan/main.htm
 [XiaogangWang-web]: http://www.ee.cuhk.edu.hk/~xgwang/
 
-[JuntingPan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JuntingPan.jpeg "Junting Pan"
+[JuntingPan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JuntingPan.png "Junting Pan"
 [ChengyuWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/ChengyuWang.png "Chengyu Wang"
 [XuJia-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XuJia.png "Xu Jia"
 [JingShao-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JingShao.png "JingShao"
-[LuSheng-photo]: https://github.com/junting/seg2vid/blob/junting/authors/LuSheng.jpeg "Lu Sheng"
+[LuSheng-photo]: https://github.com/junting/seg2vid/blob/junting/authors/LuSheng.png "Lu Sheng"
 [JunjieYan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JunjieYan.png "Junjie Yan"
 [XiaogangWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XiaogangWang.png "Xiaogang Wang"
 

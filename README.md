@@ -16,7 +16,7 @@
 [JuntingPan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JuntingPan.jpeg "Junting Pan"
 [ChengyuWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/ChengyuWang.jpeg "Chengyu Wang"
 [XuJia-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XuJia.jpg "Xu Jia"
-[JingShao-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JingShao.jpeg"JingShao"
+[JingShao-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JingShao.jpeg "JingShao"
 [LuSheng-photo]: https://github.com/junting/seg2vid/blob/junting/authors/LuSheng.jpeg "Lu Sheng"
 [JunjieYan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JunjieYan.png "Junjie Yan"
 [XiaogangWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XiaoggangWang.jpg "Xiaogang Wang"

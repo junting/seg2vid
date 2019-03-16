@@ -3,10 +3,10 @@
 
 | ![Junting Pan][JuntingPan-photo]  | ![Chengyu Wang][ChengyuWang-photo]  |  ![Xu Jia][XuJia-photo] | ![Jing Shao][JingShao-photo] | ![Lu Sheng][LuSheng-photo] |![Junjie Yan][JunjieYan-photo]  | ![Xiaogang Wang][XiaogangWang-photo]  |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| [Junting Pan][JuntingPan-web]  | [Chengyu Wang][Chengyu-web] | [Xu Jia][XuJia-web] | [Jing Shao][JingShao-web] |  [Lu Sheng][LuSheng-web] | [Junjie Yan][JunjieYan-web]  | [Xiaogang Wang][XiaogangWang-web]   |
+| [Junting Pan][JuntingPan-web]  | [Chengyu Wang][ChengyuWang-web] | [Xu Jia][XuJia-web] | [Jing Shao][JingShao-web] |  [Lu Sheng][LuSheng-web] | [Junjie Yan][JunjieYan-web]  | [Xiaogang Wang][XiaogangWang-web]   |
 
 [JuntingPan-web]: https://junting.github.io/
-[Chengyu Wang-web]: https://www.linkedin.com/in/chengyu-wang/
+[ChengyuWang-web]: https://www.linkedin.com/in/chengyu-wang/
 [XuJia-web]: https://stephenjia.github.io/
 [JingShao-web]: https://amandajshao.github.io/
 [LuSheng-web]: https://scholar.google.com.hk/citations?user=_8lB7xcAAAAJ&hl=en

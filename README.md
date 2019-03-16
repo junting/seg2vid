@@ -13,11 +13,11 @@
 [JunjieYan-web]: http://www.cbsr.ia.ac.cn/users/jjyan/main.htm
 [XiaogangWang-web]: http://www.ee.cuhk.edu.hk/~xgwang/
 
-[JuntingPan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JuntingPan.png "Junting Pan"
+[JuntingPan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/juntingpan.png "Junting Pan"
 [ChengyuWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/ChengyuWang.png "Chengyu Wang"
 [XuJia-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XuJia.png "Xu Jia"
 [JingShao-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JingShao.png "JingShao"
-[LuSheng-photo]: https://github.com/junting/seg2vid/blob/junting/authors/LuSheng.png "Lu Sheng"
+[LuSheng-photo]: https://github.com/junting/seg2vid/blob/junting/authors/lusheng.png "Lu Sheng"
 [JunjieYan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JunjieYan.png "Junjie Yan"
 [XiaogangWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XiaogangWang.png "Xiaogang Wang"
 
@@ -27,9 +27,9 @@ A joint collaboration between:
 |:-:|:-:|:-:|
 | [Sensetime Research][sensetime-web] | [Huawei][huawei-web] | [CUHK][cuhk-web] | 
 
-[logo-sensetime]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/insight.jpg "Sensetime Research"
-[logo-huawei]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/dcu.png "Huawei"
-[logo-cuhk]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/logos/microsoft.jpg?token=AFOjyc8Q1kkjcWIP-yen0FTEo0lsWPk6ks5Yc3j4wA%3D%3D "cuhk"
+[logo-sensetime]: https://github.com/junting/seg2vid/blob/junting/logos/sensetime.png "Sensetime Research"
+[logo-huawei]: https://github.com/junting/seg2vid/blob/junting/logos/huawei.png "Huawei"
+[logo-cuhk]: https://github.com/junting/seg2vid/blob/junting/logos/cuhk.jpg "cuhk"
 
 
 
@@ -145,21 +145,9 @@ We would like to especially thank Albert Gil Moreno and Josep Pujal from our tec
 [AlbertGil-web]: https://imatge.upc.edu/web/people/albert-gil-moreno
 [JosepPujal-web]: https://imatge.upc.edu/web/people/josep-pujal
 
-|   |   |
-|:--|:-:|
-|  We gratefully acknowledge the support of [NVIDIA Corporation](http://www.nvidia.com/content/global/global.php) with the donation of the GeoForce GTX [Titan Z](http://www.nvidia.com/gtx-700-graphics-cards/gtx-titan-z/) and [Titan X](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x) used in this work. |  ![logo-nvidia] |
-|  The Image ProcessingGroup at the UPC is a [SGR14 Consolidated Research Group](https://imatge.upc.edu/web/projects/sgr14-image-and-video-processing-group) recognized and sponsored by the Catalan Government (Generalitat de Catalunya) through its [AGAUR](http://agaur.gencat.cat/en/inici/index.html) office. |  ![logo-catalonia] |
-|  This work has been developed in the framework of the projects [BigGraph TEC2013-43935-R](https://imatge.upc.edu/web/projects/biggraph-heterogeneous-information-and-graph-signal-processing-big-data-era-application) and [Malegra TEC2016-75976-R](https://imatge.upc.edu/web/projects/malegra-multimodal-signal-processing-and-machine-learning-graphs), funded by the Spanish Ministerio de Economía y Competitividad and the European Regional Development Fund (ERDF).  | ![logo-spain] | 
-|  This publication has emanated from research conducted with the financial support of Science Foundation Ireland (SFI) under grant number SFI/12/RC/2289. |  ![logo-ireland] |
-
-[logo-nvidia]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/nvidia.jpg "Logo of NVidia"
-[logo-catalonia]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/generalitat.jpg "Logo of Catalan government"
-[logo-spain]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/MEyC.png "Logo of Spanish government"
-[logo-ireland]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/sfi.png "Logo of Science Foundation Ireland"
-
 ## Contact
 
-If you have any general doubt about our work or code which may be of interest for other researchers, please use the [public issues section](https://github.com/imatge-upc/saliency-salgan-2017/issues) on this github repo. Alternatively, drop us an e-mail at <mailto:xavier.giro@upc.edu>.
+If you have any general doubt about our work or code which may be of interest for other researchers, please use the [public issues section](https://github.com/junting/seg2vid/issues) on this github repo. Alternatively, drop us an e-mail at <mailto:junting.pa@gmail.com>.
 
 <!---
 Javascript code to enable Google Analytics

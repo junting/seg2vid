@@ -33,9 +33,9 @@ A joint collaboration between:
 
 
 
-[insight-web]: https://www.insight-centre.org/ 
-[dcu-web]: http://www.dcu.ie/
-[microsoft-web]: https://www.microsoft.com/en-us/research/
+[sensetime-web]: https://www.sensetime.com/
+[huawei-web]: http://www.noahlab.com.hk/#/home
+[cuhk-web]: http://www.cuhk.edu.hk/english/index.html
 
 
 
@@ -50,7 +50,7 @@ This paper proposes the novel task of video generation conditioned on a SINGLE s
 
 Find our work on [arXiv](https://arxiv.org/abs/1701.01081). 
 
-![Image of the paper](https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/master/figs/thumbnails.jpg)
+![Image of the paper](https://github.com/junting/seg2vid/blob/junting/figs/paper_thumbnail.jpg)
 
 Please cite with the following Bibtex code:
 
@@ -66,8 +66,7 @@ year = {2017}
 
 You may also want to refer to our publication with the more human-friendly Chicago style:
 
-*Junting Pan, Cristian Canton, Kevin McGuinness, Noel E. O'Connor, Jordi Torres, Elisa Sayrol and Xavier Giro-i-Nieto. "SalGAN: Visual Saliency Prediction with Generative Adversarial Networks." arXiv. 2017.*
-
+*Junting Pan, Chengyu Wang, Xu Jia, Jing Shao, Lu Sheng, Junjie Yan and Xiaogang Wang. "Video Generation from Single Semantic Label Map." CVPR 2019.*
 
 
 ## Models
@@ -88,7 +87,6 @@ SalGAN Architecture
 ## Visual Results
 
 ![Qualitative saliency predictions](https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/figs/qualitative.jpg?token=AFOjyaO0uT7l7qGzV7IyrcSgi8ieeayTks5Yc4s2wA%3D%3D)
-
 
 ## Datasets
 
@@ -112,39 +110,6 @@ SalGAN is implemented in [Lasagne](https://github.com/Lasagne/Lasagne), which at
 pip install -r https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/master/requirements.txt
 ```
 
-### SalGAN on a docker
-
-We have prepared [this Docker container](https://hub.docker.com/r/evamohe/salgan/) with all necessary dependencies for computing saliency maps with SalGAN. You will need to use [nvidia-docker](https://github.com/NVIDIA/nvidia-docker).
-
-Using the container is like connecting via ssh to a machine. To start an interactive session run:
-
-```
-    >> sudo nvidia-docker run -it --entrypoint='bash' -w /home/ evamohe/salgan
-```
-
-This will open a terminal within the container located in the '/home' folder. 
-
-Yo will find Salgan code in "/home/salgan". So if you want to test the installation, within the container, run:
-
-```
-   >> cd /home/salgan/scripts
-   >> THEANO_FLAGS=mode=FAST_RUN,device=gpu0,floatX=float32,lib.cnmem=0.5,optimizer_including=cudnn python 03-predict.py
-```
-
-That will process the sample images located in "/home/salgan/images" and store them in "/home/salgan/saliency". To exit the container, run:
-
-```
-   >> exit
-```
-
-You migh want to process your own data with your own custom scripts. For that, you can mount different local folders in the container. For example:
-
-```
->> sudo nvidia-docker run -v $PATH_TO_MY_CODE:/home/code -v $PATH_TO_MY_DATA:/home/data -it --entrypoint='bash' -w /home/
-```
-
-will open a new session in the container, with '/home/code' and '/home/data' folders that will be share with your computer. If you edit your code locally, the changes will be updated automatically in the container. Similarly, all the files generated in '/home/data' will be available in your original data folder.
-
 ### Usage
 
 To train our model from scrath you need to run the following command:
@@ -164,10 +129,6 @@ With the provided model weights you should obtain the follwing result:
 [Saliency Map]:https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/master/saliency/i112.jpg
 
 Download the pretrained VGG-16 weights from: [vgg16.pkl](https://s3.amazonaws.com/lasagne/recipes/pretrained/imagenet/vgg16.pkl)
-
-## External implementation in PyTorch
-
-Bat-Orgil Batsaikhan and Catherine Qi Zhao from the University of Minnesota released a [PyTorch implementation](https://github.com/batsa003/salgan/) in 2018 as part of their poster ["Generative Adversarial Network for Videos and Saliency Map"](http://hdl.handle.net/11299/194302).
 
 
 ## Acknowledgements

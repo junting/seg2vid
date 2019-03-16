@@ -55,12 +55,11 @@ Find our work on [arXiv](https://arxiv.org/abs/1701.01081).
 Please cite with the following Bibtex code:
 
 ```
-@InProceedings{Pan_2017_SalGAN,
-author = {Pan, Junting and Canton, Cristian and McGuinness, Kevin and O'Connor, Noel E. and Torres, Jordi and Sayrol, Elisa and Giro-i-Nieto, Xavier and},
-title = {SalGAN: Visual Saliency Prediction with Generative Adversarial Networks},
-booktitle = {arXiv},
-month = {January},
-year = {2017}
+@article{pan2019video,
+  title={Video Generation from Single Semantic Label Map},
+  author={Pan, Junting and Wang, Chengyu and Jia, Xu and Shao, Jing and Sheng, Lu and Yan, Junjie and Wang, Xiaogang},
+  journal={arXiv preprint arXiv:1903.04480},
+  year={2019}
 }
 ```
 
@@ -71,9 +70,9 @@ You may also want to refer to our publication with the more human-friendly Chica
 
 ## Models
 
-The SalGAN presented in our work can be downloaded from the links provided below the figure:
+The Seg2Vid presented in our work can be downloaded from the links provided below the figure:
 
-SalGAN Architecture
+Seg2Vid Architecture
 ![architecture-fig]
 
 * [[SalGAN Generator Model (127 MB)]](https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2017-salgan/gen_modelWeights0090.npz)
@@ -103,12 +102,9 @@ Two different dataset were used for test:
 
 Our paper presents two convolutional neural networks, one correspends to the Generator (Saliency Prediction Network) and the another is the Discriminator for the adversarial training. To compute saliency maps only the Generator is needed.
 
-### SalGAN on Lasagne
+### Seg2Vid on Pytorch
 
-SalGAN is implemented in [Lasagne](https://github.com/Lasagne/Lasagne), which at its time is developed over [Theano](http://deeplearning.net/software/theano/).
-```
-pip install -r https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/master/requirements.txt
-```
+Seg2Vid is implemented in [Pytorch](https://pytorch.org/).
 
 ### Usage
 

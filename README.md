@@ -19,7 +19,7 @@
 [JingShao-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JingShao.png "JingShao"
 [LuSheng-photo]: https://github.com/junting/seg2vid/blob/junting/authors/LuSheng.jpeg "Lu Sheng"
 [JunjieYan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JunjieYan.png "Junjie Yan"
-[XiaogangWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XiaogangWang.png.png "Xiaogang Wang"
+[XiaogangWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XiaogangWang.png "Xiaogang Wang"
 
 A joint collaboration between:
 

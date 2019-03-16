@@ -13,13 +13,13 @@
 [JunjieYan-web]: http://www.cbsr.ia.ac.cn/users/jjyan/main.htm
 [XiaogangWang-web]: http://www.ee.cuhk.edu.hk/~xgwang/
 
-[JuntingPan-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/JuntingPan.jpg "Junting Pan"
-[ChengyuWang-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/authors/Kevin160x160%202.jpg?token=AFOjyZmLlX3ZgpkNe60Vn3ruTsq01rD9ks5YdAaiwA%3D%3D "Chengyu Wang"
-[XuJia-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/authors/CristianCanton.jpg?token=AFOjyS9qMOnUPVLZpqN80ChO0R-x0SI5ks5Yc3qJwA%3D%3D "Xu Jia"
-[JingShao-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/authors/JordiTorres.jpg?token=AFOjyUaOhEyX2MGayU2C4tExpQeT0jFUks5Yc3vcwA%3D%3D "JingShao"
-[LuSheng-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/ElisaSayrol.jpg "Lu Sheng"
-[JunjieYan-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/NoelOConnor.jpg "Junjie Yan"
-[XiaogangWang-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/XavierGiro.jpg "Xiaogang Wang"
+[JuntingPan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JuntingPan.jpeg "Junting Pan"
+[ChengyuWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/ChengyuWang.jpeg "Chengyu Wang"
+[XuJia-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XuJia.jpg "Xu Jia"
+[JingShao-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JingShao.jpeg"JingShao"
+[LuSheng-photo]: https://github.com/junting/seg2vid/blob/junting/authors/LuSheng.jpeg "Lu Sheng"
+[JunjieYan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JunjieYan.png "Junjie Yan"
+[XiaogangWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XiaoggangWang.jpg "Xiaogang Wang"
 
 A joint collaboration between:
 
@@ -80,7 +80,7 @@ SalGAN Architecture
 * [[SalGAN Generator Model (127 MB)]](https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2017-salgan/gen_modelWeights0090.npz)
 * [[SalGAN Discriminator (3.4 MB)]](https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2017-salgan/discrim_modelWeights0090.npz)
 
-[architecture-fig]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/figs/fullarchitecture.jpg?token=AFOjyaH8cuBFWpldWWzo_TKVB-zekfxrks5Yc4NQwA%3D%3D "SALGAN architecture"
+[architecture-fig]: https://github.com/junting/seg2vid/blob/junting/figs/full_architecture.png "SALGAN architecture"
 [shallow-model]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/shallow_net.pickle
 [deep-model]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/deep_net_model.caffemodel
 [deep-prototxt]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/deep_net_deploy.prototxt

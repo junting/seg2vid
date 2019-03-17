@@ -140,15 +140,6 @@ Seg2Vid Architecture
   - We use the [KTH human action dataset](http://www.nada.kth.se/cvap/actions/) dataset, and we follow the data processing in [svg](https://github.com/edenton/svg).
 - UCF-101
   - UCF-101 dataset can be downloader from the [official website](https://www.crcv.ucf.edu/research/data-sets/human-actions/ucf101/)
-  
-### Training
-As explained in our paper, our networks were trained on the training and validation data provided by [Cityscapes](http://salicon.net/).
-
-### Test
-Two different dataset were used for test:
-* Test partition of [SALICON](http://salicon.net/) dataset.
-* [MIT300](http://saliency.mit.edu/datasets.html).
-
 
 ## Software frameworks
 

@@ -84,13 +84,54 @@ Seg2Vid Architecture
 [deep-prototxt]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/deep_net_deploy.prototxt
 
 ## Visual Results
+### Cityscapes (Generation)
+| ![Generated Video 1]  | ![Generated Video 2]  |
+|:-:|:-:|
 
-![Qualitative saliency predictions](https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/figs/qualitative.jpg?token=AFOjyaO0uT7l7qGzV7IyrcSgi8ieeayTks5Yc4s2wA%3D%3D)
+[Generated Video 1]:https://github.com/junting/seg2vid/blob/junting/gifs/generation/gcity_1.gif
+[Generated Video 2]:https://github.com/junting/seg2vid/blob/junting/gifs/generation/gcity_2.gif
 
-## Datasets
+### Cityscapes (Prediction)
+| ![Predicted Video 1]  | ![Predicted Video 2]  |
+|:-:|:-:|
+| ![Predicted Flow 1]  | ![Predicted Flow 2]  |
+
+[Predicted Video 1]:https://github.com/junting/seg2vid/blob/junting/gifs/flow/pcity_1.gif
+[Predicted Video 2]:https://github.com/junting/seg2vid/blob/junting/gifs/flow/pcity_2.gif
+[Predicted Flow 1]:https://github.com/junting/seg2vid/blob/junting/gifs/flow/flow_1.gif
+[Predicted Flow 2]:https://github.com/junting/seg2vid/blob/junting/gifs/flow/flow_2.gif
+
+### Cityscapes 24 frames (Prediction)
+| ![Long Video 1]  | ![Long Video 2]  | ![Long Video 3]  |
+|:-:|:-:|:-:|
+
+[Long Video 1]:https://github.com/junting/seg2vid/blob/junting/gifs/length/lcity_1.gif
+[Long Video 2]:https://github.com/junting/seg2vid/blob/junting/gifs/length/lctiy_2.gif
+[Long Video 3]:https://github.com/junting/seg2vid/blob/junting/gifs/length/lcity_3.gif
+
+### UCF-101 (Prediction)
+| ![UCF Video 1]  | ![UCF Video 2]  | ![UCF Video 3] | ![UCF Video 4]  | ![UCF Video 5]  | ![UCF Video 6]  |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+
+[UCF Video 1]:https://github.com/junting/seg2vid/blob/junting/gifs/ucf101/ice_01.gif
+[UCF Video 2]:https://github.com/junting/seg2vid/blob/junting/gifs/ucf101/ice_02.gif
+[UCF Video 3]:https://github.com/junting/seg2vid/blob/junting/gifs/ucf101/ice_03.gif
+[UCF Video 4]:https://github.com/junting/seg2vid/blob/junting/gifs/ucf101/violin_01.gif
+[UCF Video 5]:https://github.com/junting/seg2vid/blob/junting/gifs/ucf101/violin_02.gif
+[UCF Video 6]:https://github.com/junting/seg2vid/blob/junting/gifs/ucf101/violin_03.gif
+
+### KTH (Prediction)
+| ![KTH Video 1]  | ![KTH Video 2]  | ![KTH Video 3] | ![KTH Video 4]  | ![KTH Video 5]  | 
+|:-:|:-:|:-:|:-:|:-:|
+
+[KTH Video 1]:https://github.com/junting/seg2vid/blob/junting/gifs/kth/kth_1.gif
+[KTH Video 2]:https://github.com/junting/seg2vid/blob/junting/gifs/kth/kth_2.gif
+[KTH Video 3]:https://github.com/junting/seg2vid/blob/junting/gifs/kth/kth_3.gif
+[KTH Video 4]:https://github.com/junting/seg2vid/blob/junting/gifs/kth/kth_4.gif
+[KTh Video 5]:https://github.com/junting/seg2vid/blob/junting/gifs/kth/kth_5.gif
 
 ### Training
-As explained in our paper, our networks were trained on the training and validation data provided by [SALICON](http://salicon.net/).
+As explained in our paper, our networks were trained on the training and validation data provided by [Cityscapes](http://salicon.net/).
 
 ### Test
 Two different dataset were used for test:

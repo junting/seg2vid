@@ -130,6 +130,18 @@ Seg2Vid Architecture
 [KTH Video 4]:https://github.com/junting/seg2vid/blob/junting/gifs/kth/kth_4.gif
 [KTh Video 5]:https://github.com/junting/seg2vid/blob/junting/gifs/kth/kth_5.gif
 
+## Getting Started
+
+### Dataset
+- Cityscapes
+  - We use the Cityscapes dataset as an example. To train a model on the full dataset, please download it from the [official website](https://www.cityscapes-dataset.com/) (registration required).
+  - We apply a pre-trained segmentation algorithm to get the corresponding semantic maps (train_A) and instance maps (train_inst).
+  - Please add the obtained images to the `datasets` folder in the same way the example images are provided.
+- KTH
+  - We use the [FaceForensics](http://niessnerlab.org/projects/roessler2018faceforensics.html) dataset. We then use landmark detection to estimate the face keypoints, and interpolate them to get face edges.
+- UCF-101
+  - We use random dancing videos found on YouTube. We then apply DensePose / OpenPose to estimate the poses for each frame.
+  
 ### Training
 As explained in our paper, our networks were trained on the training and validation data provided by [Cityscapes](http://salicon.net/).
 

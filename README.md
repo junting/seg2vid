@@ -134,13 +134,12 @@ Seg2Vid Architecture
 
 ### Dataset
 - Cityscapes
-  - We use the Cityscapes dataset as an example. To train a model on the full dataset, please download it from the [official website](https://www.cityscapes-dataset.com/) (registration required).
-  - We apply a pre-trained segmentation algorithm to get the corresponding semantic maps (train_A) and instance maps (train_inst).
-  - Please add the obtained images to the `datasets` folder in the same way the example images are provided.
+  - Cityscapes dataset can be downloaded from the [official website](https://www.cityscapes-dataset.com/) (registration required).
+  - We apply Deeplab-V3 [github-repo](https://github.com/tensorflow/models/tree/master/research/deeplab) to get the corresponding semantic maps.
 - KTH
-  - We use the [FaceForensics](http://niessnerlab.org/projects/roessler2018faceforensics.html) dataset. We then use landmark detection to estimate the face keypoints, and interpolate them to get face edges.
+  - We use the [KTH human action dataset](http://www.nada.kth.se/cvap/actions/) dataset, and we follow the data processing in [svg](https://github.com/edenton/svg).
 - UCF-101
-  - We use random dancing videos found on YouTube. We then apply DensePose / OpenPose to estimate the poses for each frame.
+  - UCF-101 dataset can be downloader from the [official website](https://www.crcv.ucf.edu/research/data-sets/human-actions/ucf101/)
   
 ### Training
 As explained in our paper, our networks were trained on the training and validation data provided by [Cityscapes](http://salicon.net/).
@@ -158,34 +157,6 @@ Our paper presents two convolutional neural networks, one correspends to the Gen
 ### Seg2Vid on Pytorch
 
 Seg2Vid is implemented in [Pytorch](https://pytorch.org/).
-
-### Usage
-
-To train our model from scrath you need to run the following command:
-```
-THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1,optimizer_including=cudnn python 02-train.py
-```
-In order to run the test script to predict saliency maps, you can run the following command after specifying the path to you images and the path to the output saliency maps:
-```
-THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1,optimizer_including=cudnn python 03-predict.py
-```
-
-Download the pretrained VGG-16 weights from: [vgg16.pkl](https://s3.amazonaws.com/lasagne/recipes/pretrained/imagenet/vgg16.pkl)
-
-
-## Acknowledgements
-
-We would like to especially thank Albert Gil Moreno and Josep Pujal from our technical support team at the Image Processing Group at the UPC.
-
-| ![AlbertGil-photo]  | ![JosepPujal-photo]  |
-|:-:|:-:|
-| [Albert Gil](AlbertGil-web)  |  [Josep Pujal](JosepPujal-web) |
-
-[AlbertGil-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/AlbertGil.jpg "Albert Gil"
-[JosepPujal-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/JosepPujal.jpg "Josep Pujal"
-
-[AlbertGil-web]: https://imatge.upc.edu/web/people/albert-gil-moreno
-[JosepPujal-web]: https://imatge.upc.edu/web/people/josep-pujal
 
 ## Contact
 

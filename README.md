@@ -75,8 +75,7 @@ The Seg2Vid presented in our work can be downloaded from the links provided belo
 Seg2Vid Architecture
 ![architecture-fig]
 
-* [[SalGAN Generator Model (127 MB)]](https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2017-salgan/gen_modelWeights0090.npz)
-* [[SalGAN Discriminator (3.4 MB)]](https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2017-salgan/discrim_modelWeights0090.npz)
+* [[seg2vid pretrained models]](https://drive.google.com/drive/folders/1-EuWjU2-UOFDBCoD5JRHn0F5xbevIZZg)
 
 [architecture-fig]: https://github.com/junting/seg2vid/blob/junting/figs/full_architecture.png "SALGAN architecture"
 [shallow-model]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/shallow_net.pickle
@@ -91,7 +90,7 @@ Seg2Vid Architecture
 [Generated Video 1]:https://github.com/junting/seg2vid/blob/junting/gifs/generation/gcity_1.gif
 [Generated Video 2]:https://github.com/junting/seg2vid/blob/junting/gifs/generation/gcity_2.gif
 
-### Cityscapes (Prediction)
+### Cityscapes (Prediction given the 1st frame ans its segmetation mask)
 | ![Predicted Video 1]  | ![Predicted Video 2]  |
 |:-:|:-:|
 | ![Predicted Flow 1]  | ![Predicted Flow 2]  |
@@ -101,7 +100,7 @@ Seg2Vid Architecture
 [Predicted Flow 1]:https://github.com/junting/seg2vid/blob/junting/gifs/flow/flow_1.gif
 [Predicted Flow 2]:https://github.com/junting/seg2vid/blob/junting/gifs/flow/flow_2.gif
 
-### Cityscapes 24 frames (Prediction)
+### Cityscapes 24 frames (Prediction given the 1st frame ans its segmetation mask)
 | ![Long Video 1]  | ![Long Video 2]  | ![Long Video 3]  |
 |:-:|:-:|:-:|
 
@@ -109,7 +108,7 @@ Seg2Vid Architecture
 [Long Video 2]:https://github.com/junting/seg2vid/blob/junting/gifs/length/lctiy_2.gif
 [Long Video 3]:https://github.com/junting/seg2vid/blob/junting/gifs/length/lcity_3.gif
 
-### UCF-101 (Prediction)
+### UCF-101 (Prediction given the 1st frame)
 | ![UCF Video 1]  | ![UCF Video 2]  | ![UCF Video 3] | ![UCF Video 4]  | ![UCF Video 5]  | ![UCF Video 6]  |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 
@@ -120,7 +119,7 @@ Seg2Vid Architecture
 [UCF Video 5]:https://github.com/junting/seg2vid/blob/junting/gifs/ucf101/violin_02.gif
 [UCF Video 6]:https://github.com/junting/seg2vid/blob/junting/gifs/ucf101/violin_03.gif
 
-### KTH (Prediction)
+### KTH (Prediction given the 1st frame)
 | ![KTH Video 1]  | ![KTH Video 2]  | ![KTH Video 3] | ![KTH Video 4]  | ![KTH Video 5]  | 
 |:-:|:-:|:-:|:-:|:-:|
 

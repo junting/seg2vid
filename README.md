@@ -2,7 +2,7 @@
 |  ![CVPR 2019 logo][logo-cvpr] | Paper accepted at [2019 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)](http://cvpr2019.thecvf.com/)   |
 |:-:|---|
 
-[logo-cvpr]: https://github.com/junting/seg2vid/blob/junting/figs/CVPRLogo.png "CVPR 2019 logo"
+[logo-cvpr]: https://github.com/junting/seg2vid/blob/junting/figs/cvpr2019.png "CVPR 2019 logo"
 
 | ![Junting Pan][JuntingPan-photo]  | ![Chengyu Wang][ChengyuWang-photo]  |  ![Xu Jia][XuJia-photo] | ![Jing Shao][JingShao-photo] | ![Lu Sheng][LuSheng-photo] |![Junjie Yan][JunjieYan-photo]  | ![Xiaogang Wang][XiaogangWang-photo]  |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|

@@ -1,5 +1,8 @@
 # Video Generation from Single Semantic Label Map
-## [Paper accepted at CVPR 2019 ](http://cvpr2019.thecvf.com/)
+|  ![CVPR 2019 logo][logo-cvpr] | Paper accepted at [2019 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)](http://cvpr2019.thecvf.com/)   |
+|:-:|---|
+
+[logo-cvpr]: https://github.com/junting/seg2vid/blob/junting/logos/cvpr2019.png "CVPR 2019 logo"
 
 | ![Junting Pan][JuntingPan-photo]  | ![Chengyu Wang][ChengyuWang-photo]  |  ![Xu Jia][XuJia-photo] | ![Jing Shao][JingShao-photo] | ![Lu Sheng][LuSheng-photo] |![Junjie Yan][JunjieYan-photo]  | ![Xiaogang Wang][XiaogangWang-photo]  |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -140,6 +143,10 @@ Img2Vid Architecture
 - UCF-101
   - UCF-101 dataset can be downloader from the [official website](https://www.crcv.ucf.edu/research/data-sets/human-actions/ucf101/)
 
+### Testing
+- To do.
+### Training
+- To do.
 ## Software frameworks
 
 Our paper presents two convolutional neural networks, one correspends to the Generator (Saliency Prediction Network) and the another is the Discriminator for the adversarial training. To compute saliency maps only the Generator is needed.

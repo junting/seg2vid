@@ -29,7 +29,7 @@ A joint collaboration between:
 
 [logo-sensetime]: https://github.com/junting/seg2vid/blob/junting/logos/sensetime.png "Sensetime Research"
 [logo-huawei]: https://github.com/junting/seg2vid/blob/junting/logos/huawei.png "Huawei"
-[logo-cuhk]: https://github.com/junting/seg2vid/blob/junting/logos/cuhk.jpg "cuhk"
+[logo-cuhk]: https://github.com/junting/seg2vid/blob/junting/logos/cuhk.png "cuhk"
 
 
 

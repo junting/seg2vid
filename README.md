@@ -90,7 +90,7 @@ Seg2Vid Architecture
 [Generated Video 1]:https://github.com/junting/seg2vid/blob/junting/gifs/generation/gcity_1.gif
 [Generated Video 2]:https://github.com/junting/seg2vid/blob/junting/gifs/generation/gcity_2.gif
 
-### Cityscapes (Prediction given the 1st frame ans its segmetation mask)
+### Cityscapes (Prediction given the 1st frame and its segmetation mask)
 | ![Predicted Video 1]  | ![Predicted Video 2]  |
 |:-:|:-:|
 | ![Predicted Flow 1]  | ![Predicted Flow 2]  |

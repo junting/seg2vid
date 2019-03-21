@@ -38,9 +38,6 @@ A joint collaboration between:
 [cuhk-web]: http://www.cuhk.edu.hk/english/index.html
 
 
-
-
-
 ## Abstract
 
 This paper proposes the novel task of video generation conditioned on a SINGLE semantic label map, which provides a good balance between flexibility and quality in the generation process. Different from typical end-to-end approaches, which model both scene content and dynamics in a single step, we propose to decompose this difficult task into two sub-problems. As current image generation methods do better than video generation in terms of detail, we synthesize high quality content by only generating the first frame. Then we animate the scene based on its semantic meaning to obtain the temporally coherent video, giving us excellent results overall. We employ a cVAE for predicting optical flow as a beneficial intermediate step to generate a video sequence conditioned on the initial single frame. A semantic label map is integrated into the flow prediction module to achieve major improvements in the image-to-video generation process. Extensive experiments on the Cityscapes dataset show that our method outperforms all competing methods.
@@ -75,12 +72,15 @@ The Seg2Vid presented in our work can be downloaded from the links provided belo
 Seg2Vid Architecture
 ![architecture-fig]
 
-* [[seg2vid pretrained models]](https://drive.google.com/drive/folders/1-EuWjU2-UOFDBCoD5JRHn0F5xbevIZZg)
+Img2Vid Architecture
+![img2vid-fig]
 
-[architecture-fig]: https://github.com/junting/seg2vid/blob/junting/figs/full_architecture.png "SALGAN architecture"
-[shallow-model]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/shallow_net.pickle
-[deep-model]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/deep_net_model.caffemodel
-[deep-prototxt]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/deep_net_deploy.prototxt
+* [[Img2Img pretrained models]](https://github.com/NVIDIA/pix2pixHD)
+* [[Img2vid pretrained models]](https://drive.google.com/drive/folders/1-EuWjU2-UOFDBCoD5JRHn0F5xbevIZZg)
+
+[architecture-fig]: https://github.com/junting/seg2vid/blob/junting/figs/two_stage.png "seg2vid architecture"
+[Img2vid-fig]: https://github.com/junting/seg2vid/blob/junting/figs/full_architecture.png "img2vid architecture"
+
 
 ## Visual Results
 ### Cityscapes (Generation)

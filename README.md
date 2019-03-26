@@ -48,7 +48,7 @@ This paper proposes the novel task of video generation conditioned on a SINGLE s
 
 ## Publication
 
-Find our work on [arXiv](https://arxiv.org/abs/1701.01081). 
+Find our work on [arXiv](https://arxiv.org/abs/1903.04480). 
 
 ![Image of the paper](https://github.com/junting/seg2vid/blob/junting/figs/paper_thumbnail.jpg)
 

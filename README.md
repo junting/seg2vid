@@ -23,7 +23,7 @@
 [LuSheng-photo]: https://github.com/junting/seg2vid/blob/junting/authors/lusheng.png "Lu Sheng"
 [JunjieYan-photo]: https://github.com/junting/seg2vid/blob/junting/authors/JunjieYan.png "Junjie Yan"
 [XiaogangWang-photo]: https://github.com/junting/seg2vid/blob/junting/authors/XiaogangWang.png "Xiaogang Wang"
-
+<!---
 A joint collaboration between:
 
 | ![logo-sensetime] | ![logo-huawei] | ![logo-cuhk] | 
@@ -33,7 +33,7 @@ A joint collaboration between:
 [logo-sensetime]: https://github.com/junting/seg2vid/blob/junting/logos/sensetime.png "Sensetime Research"
 [logo-huawei]: https://github.com/junting/seg2vid/blob/junting/logos/huawei.png "Huawei"
 [logo-cuhk]: https://github.com/junting/seg2vid/blob/junting/logos/cuhk.png "cuhk"
-
+-->
 
 
 [sensetime-web]: https://www.sensetime.com/
@@ -133,6 +133,8 @@ Img2Vid Architecture
 [KTh Video 5]:https://github.com/junting/seg2vid/blob/junting/gifs/kth/kth_5.gif
 
 ## Getting Started
+
+### Please find our source code at [here].(https://github.com/STVIR/seg2vid)
 
 ### Dataset
 - Cityscapes

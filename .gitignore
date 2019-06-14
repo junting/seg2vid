@@ -1,3 +1,4 @@
 *.pth.tar
 *.pyc
 ./datasets/dataset_path.py
+./src/*

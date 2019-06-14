@@ -134,7 +134,7 @@ Img2Vid Architecture
 
 ## Getting Started
 
-### Please find our source code at [here].(https://github.com/STVIR/seg2vid)
+### Please find our source code at this new repo [here](https://github.com/STVIR/seg2vid).
 
 ### Dataset
 - Cityscapes

@@ -140,18 +140,49 @@ Img2Vid Architecture
 - Cityscapes
   - Cityscapes dataset can be downloaded from the [official website](https://www.cityscapes-dataset.com/) (registration required).
   - We apply Deeplab-V3 [github-repo](https://github.com/tensorflow/models/tree/master/research/deeplab) to get the corresponding semantic maps.
+  - We organize the dataset following as below:
+  ```
+  seg2vid
+  ├── authors 
+  ├── figs
+  ├── gifs
+  ├── logos
+  ├── pretrained_models
+  ├── src
+  ├── data
+  │   ├── cityscapes
+  │   │   ├── leftImg8bit_sequence
+  │   │   │   ├── train_512x256
+  │   │   │   │   ├── aachen
+  │   │   │   │   │   ├── aachen_000003_000019_leftImg8bit.png
+  │   │   │   ├── val_512x256
+  │   │   │   ├── val_pix2pixHD
+  │   │   │   │   ├── frankfurt
+  │   │   │   │   │   ├── frankfurt_000000_000294_pix2pixHD.png
+  │   │   │   ├── train_semantic_segmask
+  │   │   │   ├── val_semantic_segmask
+  │   │   │   │   ├── frankfurt
+  │   │   │   │   │   ├── frankfurt_000000_000275_ssmask.png
+  │   │   ├── gtFine
+  │   │   │   ├── train
+  │   │   │   ├── val
+  │   │   │   │   ├── frankfurt
+  │   │   │   │   │   ├── frankfurt_000000_000294_gtFine_instanceIds.png
+  ```
+
 - KTH
   - We use the [KTH human action dataset](http://www.nada.kth.se/cvap/actions/) dataset, and we follow the data processing in [svg](https://github.com/edenton/svg).
 - UCF-101
   - UCF-101 dataset can be downloader from the [official website](https://www.crcv.ucf.edu/research/data-sets/human-actions/ucf101/)
 
 ### Testing
-- To do.
+```
+  python -u test_refine_w_mask_two_path.py --suffix refine_w_mask_two_path --dataset cityscapes_two_path
+```
 ### Training
-- To do.
-## Software frameworks
-
-Our paper presents two convolutional neural networks, one correspends to the Generator (Saliency Prediction Network) and the another is the Discriminator for the adversarial training. To compute saliency maps only the Generator is needed.
+```
+  python -u train_refine_multigpu_w_mask_two_path.py --batch_size 8 --dataset cityscapes_two_path
+```
 
 ### Seg2Vid on Pytorch
 

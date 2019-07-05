@@ -152,10 +152,10 @@ Img2Vid Architecture
   ├── data
   │   ├── cityscapes
   │   │   ├── leftImg8bit_sequence
-  │   │   │   ├── train_512x256
+  │   │   │   ├── train_256x128
   │   │   │   │   ├── aachen
   │   │   │   │   │   ├── aachen_000003_000019_leftImg8bit.png
-  │   │   │   ├── val_512x256
+  │   │   │   ├── val_256x128
   │   │   │   ├── val_pix2pixHD
   │   │   │   │   ├── frankfurt
   │   │   │   │   │   ├── frankfurt_000000_000294_pix2pixHD.png
